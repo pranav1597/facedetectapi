@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "start:dev":"nodemon server.js"
+    "start:dev": "nodemon server.js"
   },
   "engines": {
     "node": "12.16.2"
@@ -22,7 +22,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.95.1",
-    "pg": "^8.5.1",
-    "proxy": "http://localhost:3001"
+    "pg": "^8.5.1"
   }
 }
